@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Este comentario sí */
+/* Caja */
+.box {
+  background-color: #bf4b31;
+  border-radius: 10px;
+}
+
+.content {
+  width: 62.5%;
+}
+
+.sidebar {
+  width: 31.25%;
+}
+
+.box {
+  padding: 20px;
+  background-color: #eaeaea;
+}
+
+.box a {
+  color: #c00;
+}
+
+.box a:hover {
+  color: #800;
+}

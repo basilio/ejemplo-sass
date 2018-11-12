@@ -1,0 +1,31 @@
+// Este comentario no aparece
+/* Este comentario sí */
+
+// Variables
+$primary-color: #bf4b31;
+$border-radius: 10px;
+
+/* Caja */
+.box {
+    background-color: $primary-color;
+    border-radius: $border-radius;
+}
+
+// Ejemplo de operaciones
+.content {
+    width: 600px / 960px * 100%;
+}
+.sidebar {
+    width: 300px / 960px * 100%;
+}
+
+.box {
+    padding: 20px;
+    background-color: #eaeaea;
+    a {
+        color: #c00;
+        &:hover {
+            color: #800;
+        }
+    }
+}
